@@ -6,7 +6,7 @@ function Comment({ data }) {
   return (
     <div className="bg-comment">
       <div className="inside-comment">
-        <div className="avatar-comment"></div>
+        <img src={data.author.avatar} className="avatar-comment" />
         <div className="comment-box">
           <span className="author">{data.author.name}</span>
           <span className="comment">{data.content}</span>

@@ -8,7 +8,7 @@ function Post({ data }) {
   return (
     <div className="bg-post">
       <div className="inside-post">
-        <div className="avatar"></div>
+        <img src={data.author.avatar} className="avatar" />
         <div className="info">
           <span className="name">{data.author.name}</span>
           <span className="date">{data.date}</span>
