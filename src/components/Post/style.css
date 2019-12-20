@@ -1,10 +1,10 @@
 .bg-post {
   width: 700px;
-  height: 250px;
   background: #FFF;
   margin: 20px auto;
   box-shadow: 0 0 10px #CCC;
   border-radius: 5px;
+  padding-bottom: 20px;
 }
 
 .inside-post {
@@ -56,4 +56,5 @@
   height: 22px;
   border-bottom: 1px solid #EEE;
   margin: auto;
+  margin-bottom: 20px;
 }

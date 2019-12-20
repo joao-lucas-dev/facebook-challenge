@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Comment from '../Comment';
+
 import './style.css';
 
 function Post({ data }) {
@@ -16,6 +18,9 @@ function Post({ data }) {
         <div className="question">{data.content}</div>
       </div>
       <div className="line"></div>
+      <div>
+        {data.comments.map(comment => <Comment key={comment.id} data={comment} />)}
+      </div>
     </div>
   )
 }

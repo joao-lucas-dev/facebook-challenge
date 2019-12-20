@@ -1,0 +1,38 @@
+.comment-box {
+  width: 622px;
+  margin-left: 10px;
+  background: #EEEEEE;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.inside-comment {
+  padding: 0px 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-comment {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #CCC;
+}
+
+.author {
+  color: #4A4A4A;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  line-height: 20px;
+  float: left;
+}
+
+.comment {
+  margin-left: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+  color: #555;
+}
